@@ -326,6 +326,26 @@ img {
   display: block;
 }
 
+/* ================= IMAGE ARTIKEL 4 ================= */
+
+.article-image-small {
+  margin: 24px auto 10px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid var(--paper-line);
+  background: #f8fafc;
+  width: 100%;
+  max-width: 520px;
+}
+
+.article-image-small img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
 .image-caption {
   padding: 14px 16px;
   font-size: 14px;
@@ -403,6 +423,10 @@ img {
     height: clamp(140px, 30vw, 190px);
   }
 
+  .article-image-small {
+    max-width: 460px;
+  }
+
   .poster-section {
     padding: 10px 5% 64px;
   }
@@ -452,6 +476,10 @@ img {
     height: clamp(130px, 28vw, 170px);
   }
 
+  .article-image-small {
+    max-width: 100%;
+  }
+
   .poster-section {
     padding: 10px 16px 48px;
   }
@@ -497,6 +525,10 @@ img {
   .article-image {
     border-radius: 14px;
     height: clamp(120px, 26vw, 150px);
+  }
+
+  .article-image-small {
+    border-radius: 14px;
   }
 
   .image-caption {
